@@ -1,0 +1,14 @@
+1. s = 1+ 2^2 + 3^3 + … + n^n
+   sa se calculeze ultima cifra a lui s 
+   
+   int i,n,s,p,j;
+   ci>> n;
+   s=0;  ///in s se va calcula ultima cifra a sumei cerute 
+   for(int i=1;i<=n;i++){ 
+      p=1;
+      for(int j=1;j<=i;j++){
+          p=(p*i)%10;     ///in p se calculeaza ultima cifra a puterii i^i(n^n)
+      }
+      s=(s+p)%10;   ///dupa ce am calculat ultima cifra a puterii p o adaugam la suma si calculam din nou ultima cifra
+   }
+   cout<<s;
