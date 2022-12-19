@@ -12,3 +12,42 @@
       s=(s+p)%10;   ///dupa ce am calculat ultima cifra a puterii p o adaugam la suma si calculam din nou ultima cifra
    }
    cout<<s;
+3. #include <iostream>
+
+using namespace std;
+
+int main() {
+    int n,k=0;
+    cin>>n;
+    while(n!=0){
+        if((n&1)==1){
+            k++;
+        }
+        n=n/2;
+    }
+    cout<<k;
+    return 0;
+}
+4. trasformarea unui numar in binar 
+#include <iostream>
+using namespace std;
+int bin(int n,int p){
+    if(n==0){
+        return 0;
+    }
+    else{
+        return n%2*p+bin(n/2,p*10);
+    }
+}
+int main() {
+    int n,p=1;
+    cin>>n;
+    cout<<bin(n,p);
+    return 0;
+}
+9. se vor folosi relatiile lui Viete
+   S=x1+x2=-b/a
+   P=x1*x2=c/a
+   (x1+x2)^2=x1^2+x2^2+x1*x2
+   S^2=x1^2+x2^2+P
+   x1^2+x2^2=S^2-P
