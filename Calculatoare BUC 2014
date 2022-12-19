@@ -1,5 +1,17 @@
 1. Fun(2)=2*Fun(3)=2*2*Fun(4)=4*2=8  R:C
-2. 
+2. pt n=5 a[0]=0 a[1]=1 a[2]=2 a[3]=3 a[4]=4
+i=0 k=0 a[0]=1 a[i]=0 a[2]=2 a[3]=3 a[4]=4
+    k=1 a[0]=1 a[i]=2 a[2]=0 a[3]=3 a[4]=4
+    k=2 a[0]=1 a[i]=2 a[2]=3 a[3]=0 a[4]=4
+    k=3 a[0]=1 a[i]=2 a[2]=3 a[3]=4 a[4]=0
+i=1 k=3 a[0]=2 a[i]=1 a[2]=3 a[3]=4 a[4]=0
+    k=1 a[0]=2 a[i]=3 a[2]=1 a[3]=4 a[4]=0
+    k=2 a[0]=2 a[i]=3 a[2]=4 a[3]=1 a[4]=0
+i=2 k=0 a[0]=3 a[i]=2 a[2]=4 a[3]=1 a[4]=0
+    k=1 a[0]=3 a[i]=4 a[2]=2 a[3]=1 a[4]=0
+i=3 k=0 a[0]=4 a[i]=3 a[2]=2 a[3]=1 a[4]=0
+nr_swap=4+3+2+1=suma_Gauss(4)=suma_Gauss(n-1)=(n-1)*n/2
+R:A
 3. componente conexe : 3
     -6
     -5,2,8
@@ -14,7 +26,7 @@
  8. divizorii numarului se gasesc pana la n/2 iar pana la sqrt(n) nu se repeta 
     astfel e de ajuns sa verificam pana la sqrt(n) deoarece de la sqrt(n) la n sunt perechile celor de la 1 la sqrt(n)
     sqrt(618)=24
- 9. 
+ 9. R:C
 
 
     
