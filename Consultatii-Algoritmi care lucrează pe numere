@@ -1,0 +1,14 @@
+1.  (a+b)%n=((a%n)+(b%n))%n;
+#include <iostream>
+using namespace std;
+int main() {
+    int n,curse,rest=0,x;
+    cin>>n>>curse;
+    for(int i=1;i<=curse;i++){
+        cin>>x;
+        rest=(rest%n+x%n)%n;
+    }
+    cout<<rest;
+    return 0;
+}
+2. 
