@@ -38,3 +38,7 @@ R:C
      2 apare de 4 ori, 3 de 6 ori, 5 de 10 ori si 7 de 14 ori
      4+6+10+14=34
      R:B
+19.
+20. suma(1)=suma(0)+1/2+2/1=2
+    suma(3)=suma(2)+2/3+3/2=suma(1)+1/2+2/1+1=2+2+1=5
+21.
