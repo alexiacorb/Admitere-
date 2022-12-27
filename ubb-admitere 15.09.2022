@@ -1,0 +1,38 @@
+1. R:A, B
+2. 
+4.C
+5.B
+6.C,D
+7. !((a>0) && (b>0))--> a<=0 || b>=0
+   A.a>=0 && b<=0
+   B.a<=0 && b<=0
+   C.a<=0 || b<=0
+   D.a<=0 && b>=0
+R:C
+8.
+9. n=125-->m=5+25+125=155
+   n=340-->m=0+40+340=380
+   R:C
+10. in v sunt memorate cifrele lui n 
+11.R:A
+12.R:B
+13.R:A,C
+14.600=6*100
+   A. b=20 divizori pari comuni a lui a si b sunt: 2,4,10,20
+   B. b=50 divizori pari comuni a lui a si b sunt: 2,10,50
+   C. b=12 divizori pari comuni a lui a si b sunt: 2,4,6,12
+   D. b=90 divizori pari comuni a lui a si b sunt: 2,4,6,8,10,
+   R:A,C
+15.R:D
+16.R:C
+17. elementul x apare in sir de 2*x ori 
+    ex x=4 primul x apre pe pozitia 1*2+2*2+3*2+1=2*(1+2+3)+1=12+1=13
+           ultimul x apare pe pozitia 1*2+2*2+3*2+4*2=2*(1+2+3+4)=2*(4*5/2)=2*10=20
+           
+      pt x=11 primul x apre pe pozitia 1*2+2*2+3*2+...+10*2+1=2*(1+2+3+..+10)+1=2*(10*11/2)+1=2*55+1=110+1=111
+              ultimul x apare pe pozitia 1*2+2*2+3*2+...+10*2+11*2+1=2*(1+2+3+..+11)+1=2*(11*12/2)+1=2*66=1+132=133
+      R:B,D
+18.  110-20=90 
+     pana la elementul 100 sunt numerele 1,2,...,10
+     dintre care prime sunt: 2,3,5,7
+     R:A
