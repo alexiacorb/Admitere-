@@ -41,4 +41,36 @@ R:C
 19.
 20. suma(1)=suma(0)+1/2+2/1=2
     suma(3)=suma(2)+2/3+3/2=suma(1)+1/2+2/1+1=2+2+1=5
-21.
+21. R:B si C
+22. n=7
+    i=1,6
+    j=i+1,7
+    i=1 -->j=2 --> 1 1
+           j=3 --> 1 2
+           j=4 --> nimic
+           j=5 --> 4 1
+           j=6 --> 5 1
+           j=7 --> 6 1
+    pt i=1 -->5 perechi 
+    pt i=2 se afiseaza perechile pt j=3,4,6,7 -->4 perechi 
+    pt i=3 se afiseaza perechile pt j=4,5,7 -->3 perechi
+    pt i=4 se afiseaza perechile pt j=5,6 -->2 perechi
+    pt i=5 se afiseaza perechile pt j=6,7 -->2 perechi
+    pt i=6 se afiseaza perechile pt j=7 -->1 pereche
+    5+4+3+2+2+1=9+1+7=17
+    R:D
+ 23.al doilea while se executa de log in baza 3 din n ori -->log3(3^k)= k
+    primul while se executa de  log in baza 3 din n ori -->log3(3^k)=k
+    se va afisa ubb de k*k ori=k^2
+    R:A
+ 24.S1 se efectueaza de (b-1)*(a-1) ori 
+    S2 se efectueaza de (a-1)*(b-1) ori
+    R:B si C
+ 25.
+ 26.
+ 27. A. (x<=10 || x>=20) && x%2!=1   adevarat
+     B. (x%2==0) && ((x < 10) || (x > 20)) fals deoarece trebuia x<=10 si x>=20
+     C. (x%2!=1) && ((x>10) && (x<20)) fals
+     D. (x%4!=1) && (x%4!=3) && (x<=10 || x>=20) fals
+     R:A
+ 28. 
