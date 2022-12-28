@@ -1,5 +1,6 @@
 1. R:A, B
-2. 
+2. R:A, B 
+   C functioneaza doar daca palindromul are un nr par de cifre
 3. A n = 812376 --> p=8 u=1  1%5<=8%5 a-->p=1
                     p=1 u=2  2%5<=1%5 f-->p=1
                     p=1 u=3  3%5<=1%5 f-->p=1
