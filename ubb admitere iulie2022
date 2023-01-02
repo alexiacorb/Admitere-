@@ -1,3 +1,37 @@
 1. R:B
 2. R:A
-3/
+3. R:B,C
+4. ceFace(15,0)=51 --->oglinditul lui n 
+   R:D
+5. R:C D
+6. 
+7.
+8 R:B
+9. 
+10.R:B
+11.R:C
+12.R:D
+13.R:C
+14. 2407-->100101100111
+    R:A
+15. 
+16.
+17. programul calculeaza numarul cifrelor divizibile cu 3 
+    x=13369 --> 4
+    x=21369 --> 3
+    x=4 -->0
+    x=1233 -->2
+    R:A
+18.
+19. PANA LA n/2 are loc interschimbarea primului element cu al 6 lea al doilea cu al 5 lea si al 3 cu al 4. de la n/2 la n ele revin la forma initiala
+    R:C
+20. R:C D (B
+21. programul calculeaza n!/(n-k)!= aranjamente de n luate cate k
+    n=5 x=2 --> aranjamente de 5 luate cate 2 =2
+    R: B C
+22. 
+23. R:B
+24. 
+25. R:A C D 
+26.
+27. R: A
