@@ -25,10 +25,10 @@
 11.R:C
 12.R:D
 13.R:C
-14. 2407-->100101100111
+14.
+15. 2407-->100101100111
     R:A
-15. 
-16.
+16. R:D
 17. programul calculeaza numarul cifrelor divizibile cu 3 
     x=13369 --> 4
     x=21369 --> 3
