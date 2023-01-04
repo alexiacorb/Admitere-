@@ -34,14 +34,14 @@
     x=21369 --> 3
     x=4 -->0
     x=1233 -->2
-    R:A
+    R:A (B?)
 18.
 19. PANA LA n/2 are loc interschimbarea primului element cu al 6 lea al doilea cu al 5 lea si al 3 cu al 4. de la n/2 la n ele revin la forma initiala
     R:C
-20. R:C D (B
+20. R:C D B
 21. programul calculeaza n!/(n-k)!= aranjamente de n luate cate k
     n=5 x=2 --> aranjamente de 5 luate cate 2 =2
-    R: B C
+    R: /B/ C
 22. 
 23. R:B
 24. R:A C D
@@ -60,5 +60,5 @@
     2^0+2^1+2^2=1+2+4=7
     R: A C
     !! 2^0+2^1+...+2^n=2^(n+1)-1
-27. R: A
+27. R: A? /B D/
 28. 
