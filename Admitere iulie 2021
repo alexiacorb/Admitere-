@@ -1,0 +1,40 @@
+1. pt n=5 
+   e=1 p=1 i=2
+   p=(-1)*1*2=-2!
+   E=1!-2! i=3
+   p=(-1)*(-2!)*3=3!
+   E=1!-2!+3!-4!+5!
+   
+   R:A C 
+2. 
+3.
+4. dupa 2009 urmeaza 2020
+   R:D
+5. R:D
+6. R:B C
+7. ale*
+   1234
+   i=1 c='a' -->i=2
+   i=2 c='l' -->i=3
+   i=3 c='e' -->i=4
+   R:A
+8. 
+9. cate(0,1)= 1+cate(1,1)=1+cate(2,1)=1+0=1
+   programul calculeaza cate numere de la n la m sunt divizibile cu 2 dar nu si cu 6
+   cate(4,21) aduna 1 la suma pt n={4, 8, 10, 14, 16, 20} --> cate(4,21)=6
+   cate(7,120) aduna 1 la suma pt n={8, 10, 14, 16, 20, 22, 26, 28, 30, 32, 34, 38, 40, 44, 46, 50, 52, 56, 58, 62, 64, 68, 70, 74, 76, 80, 82, 86, 88, 92, 94, 98, 102, 104,106, 110, 112, 116, 118} --> cate(7,120)=39
+   cate(1,215) numere divizibile cu 2 in interval sunt (215-1)/2=214/2=107 
+               numere divizibile cu 6 sunt (215-1)/6=214/6=35
+   cate(1,215)= 107-35=72
+   R: B D 
+10. R:B
+11.
+12.  x = [101, 7, 6, 3] și n = 4
+     F(x, 1)=100 
+     F(x, 2)   x[2]>100 F --> F(x,2)=100
+     F(x, 3)   x[3]>100 F --> F(x,3)=100
+     F(x, 4)   x[4]>100 F --> F(x,4)=100
+     R:C
+ 13. R:D
+ 14. n = 14 --> n=7 i=2--> scrie 2 i=3 n=3 --> scrie 2 3 i=4 n=1 --> scrie 2 3 4 
+     n=14 --> 234
