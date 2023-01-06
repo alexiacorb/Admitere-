@@ -18,7 +18,9 @@
    i=2 c='l' -->i=3
    i=3 c='e' -->i=4
    R:A
-8. 
+8. log2(n)*log3(n)=log2(n)*(log2(n)/log2(3))=log2(n)^2
+   log3(n)/log3(2)*log3(n)=log3(n)^2
+   R:BC
 9. cate(0,1)= 1+cate(1,1)=1+cate(2,1)=1+0=1
    programul calculeaza cate numere de la n la m sunt divizibile cu 2 dar nu si cu 6
    cate(4,21) aduna 1 la suma pt n={4, 8, 10, 14, 16, 20} --> cate(4,21)=6
@@ -38,3 +40,18 @@
  13. R:D
  14. n = 14 --> n=7 i=2--> scrie 2 i=3 n=3 --> scrie 2 3 i=4 n=1 --> scrie 2 3 4 
      n=14 --> 234
+     n=31 --> scrie 1 i=2 n=15 --> scrie 12 i=3 n=7 --> scrie 123 i=4 n=3 --> scrie 1234 i=5 n=1--> scrie 12345
+     n=31--> 12345
+     R: ABCD
+ 15. 
+ 16.
+ 17. pt a=4 b=2 a/b=2 
+    A. (a-1)/b=3/2=1 nu e ok
+    B. (a+b+1)/b=7/2=3 nu e ok 
+    C. (a+b-1)/b=5/2=2
+    D. (a+2*b-1)/b-1=(4+4-1)/2-1=7/2-1=3-1=2
+    pt  a=3 b=2 a/b -->2
+    C. (a+b-1)/b=(5-1)/2=2
+    D. (a+2*b-1)/b-1=(3+4-1)/2-1=6/2-1=3-1=2
+    R: C D 
+ 18.  
