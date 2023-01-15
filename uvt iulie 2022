@@ -1,0 +1,10 @@
+1.a)1+x+(x^2/2)+(x^3/6)+(x^4/24)+...
+   termenul general e x^(n-1)/(1*2*...*(n-1))=x^(n-1)/(n-1)!
+   raspuns (ii)
+2. raspuns (iii, i)
+3. [a1, b1] ⊂ R 
+   [a2, b2] ⊂ R
+    a1≤a2
+    a1<=b1
+    a2<=b2
+    R:(i)
