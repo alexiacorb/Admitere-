@@ -1,0 +1,38 @@
+4. a) #include <iostream>
+
+using namespace std;
+int dif(int n,int t[100]){
+    int difmax=0,st=1,dif=0,i=1,j=2,dr=0;
+    while(i<=n && j<=n){
+        st=1;
+        dif=0;
+        int ok=0;
+        while(t[i]<t[j] && j<n){
+            if(st==1){
+                st=i;
+            }
+            i++;
+            j++;
+            ok=1;
+            dr=j;
+        }
+        dr--;
+        if(ok==1){
+            dif=t[dr]-t[st]; 
+            if(dif>difmax){
+                difmax=dif;
+            }
+        }
+        i++;
+        j++;
+    }
+    return difmax;
+}
+int main() {
+    int n,t[100];
+    cin>>n;
+    for(int i=1;i<=n;i++){
+        cin>>t[i];
+    }
+    cout<<dif(n,t);
+}
