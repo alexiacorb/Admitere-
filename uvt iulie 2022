@@ -8,9 +8,34 @@
     a1<=b1
     a2<=b2
     R:(i)
-2. f(1, n)=1
+2.a)f(1, n)=1
    (i) 1, 2, 2, 1 -->n=4
        f(1,4)=f(2,3)=f(3,2)=1
     programul vf daca sirul e un palindrom, returneaza 1 in caz afirmativ si 0 in caz negativ
     R: i, ii, iii, v, vi
-3. 
+  b) programul verifica daca numarul e de tip palindrom astfel se executa cat timp i<j astfel facandu se comparatii doar pana la jumatatea numarului
+     R: [n/2]
+
+5. a) int nivel(int t[100],int i){
+      int k=0;
+       while(t[i]!=0){
+             k++;
+             i=t[i];
+       }
+       return k;
+     }
+   b)int ascendent(int t[100],int nod1,int nod2){
+    if(t[nod1]==t[nod2]){
+        return t[nod1];
+    }
+    else{
+        if(nivel(t,nod1)>nivel(t,nod2)){
+            return ascendent(t,t[nod1],nod2);
+        }
+        else{
+            return ascendent(t,nod1,t[nod2]);
+        }
+    }
+   }
+
+ 
