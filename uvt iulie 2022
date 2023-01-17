@@ -15,7 +15,22 @@
     R: i, ii, iii, v, vi
   b) programul verifica daca numarul e de tip palindrom astfel se executa cat timp i<j astfel facandu se comparatii doar pana la jumatatea numarului
      R: [n/2]
-
+4. a) void IP(char s[100],int &n,int v[100]){
+    char *p;
+    v[100]={};
+    n=0;
+    p=strtok(s,".");
+    while(p!=NULL){
+        n++;
+        int lung;
+        lung=strlen(p);
+        for(int i=0;i<lung;i++){
+            v[n]=v[n]*10+(p[i]-'0');
+        }
+        p=strtok(NULL,".");
+     }
+   }
+   b) 
 5. a) int nivel(int t[100],int i){
       int k=0;
        while(t[i]!=0){
