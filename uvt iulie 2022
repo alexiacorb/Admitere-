@@ -30,7 +30,56 @@
         p=strtok(NULL,".");
      }
    }
-   b) 
+   b) ?
+#include <iostream>
+#include <cstring>
+using namespace std;
+int n,v[100]={};
+void IP(char s[100],int &n,int v[100]){
+    char *p;
+    v[100]={};
+    n=0;
+    p=strtok(s,".");
+    while(p!=NULL){
+        n++;
+        int lung;
+        lung=strlen(p);
+        for(int i=0;i<lung;i++){
+            v[n]=v[n]*10+(p[i]-'0');
+        }
+        p=strtok(NULL,".");
+    }
+}
+int verifIP(char s[100]){
+    int ok=0;
+    IP(s,n,v);
+    if(n!=4){
+        return 0;
+    }
+    if(v[1]==0){
+        return 2;
+    }
+    for(int i=1;i<=n;i++){
+        if(v[i]>=0 && v[i]<=255){
+            ok=1;
+        }
+    }
+    return ok;
+
+}
+int main()
+{
+    char s[100];
+    cin.getline(s,15);
+    IP(s,n,v);
+    for(int i=1;i<=n;i++){
+        cout<<v[i]<<" ";
+    }
+    cout<<endl;
+    cout<<verifIP(s);
+    return 0;
+}
+
 5. a) int nivel(int t[100],int i){
       int k=0;
        while(t[i]!=0){
