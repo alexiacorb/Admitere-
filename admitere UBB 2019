@@ -26,4 +26,49 @@
       R:BD
 4. R:C
 5. 
-      
+6. cifre(108, 9)-->11 apeluri
+      val=cifre(12, 9)
+      cifre(12, 8)
+      cifre(12,7)
+      cifre(12,6)
+      val=cifre(2,6)
+      cifre(2,5)
+      cifre(2,4)
+      cifre(2,3)
+      cifre(2,2)
+      val=cifre(1,2)
+      cifre(1,1)=0
+    cifre(109, 9)-8 apeluri
+      cifre(109,8)
+      cifre(109,7)
+      cifre(109,6)
+      cifre(109,5)
+      cifre(109,4)
+      cifre(109,3)
+      cifre(109,2)
+      cifre(109,1)=-1
+    cifre(13,9)-8 apeluri
+       cifre(13,8)
+       cifre(13,7)
+       cifre(13,6)
+       cifre(13,5)
+       cifre(13,4)
+       cifre(13,3)
+       cifre(13,2)
+       cifre(13,1)=0
+    cifre(100,9)-->11
+       cifre(100,8)
+       cifre(100,7)
+       cifre(100,6)
+       cifre(100,5)
+       val=cifre(20,5)
+       val=cifre(4,5)
+       cifre(4,4)
+       val=cifre(1,4)
+       cifre(1,3)
+       cifre(1,2)
+       cifre(1,1)=0
+       R:AB
+  
+       
+    
