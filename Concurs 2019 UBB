@@ -40,4 +40,19 @@ B.2 coliviile deschise sunt: 1, 4, 9
 B.3 colivia cu numarul k este vizita de un numar de ori egal cu divizorii sai din multimea {1,2,3,...,k} daca luam in calcul si parcurgerea initiala atunci cand maimuta deschide toate coliviile sau din multimea {2,3,...n} in sens contrar. 
 B.4 raman deschise coliviile care au un nr par de divizori din {2,....,n} sau impar din {1,2,...,n}
 B.5 raman deschise un numar de colivii egal cu numarul patratelor perfecte <=n 
-B.6 
+B.6 #include <iostream>
+using namespace std;
+void colivii(int n,int &nrDeschise){
+    for(int d=1;d*d<=n;d++){
+        nrDeschise++;
+    }
+}
+int main()
+{
+    int n,nrDeschise=0;
+    cin>>n;
+    colivii(n,nrDeschise);
+    cout<<nrDeschise;
+    return 0;
+}
+
