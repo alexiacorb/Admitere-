@@ -19,9 +19,25 @@
    C. n = 8 și a = (-6, 5, -1, -4, 1, 4, -7, 6) -->-6-5+1-4-1+4+7+6=-5+7=2
    D. n = 8 și a = (-6, -3, 0, 1, 2, 3, -1, 4)  -->-6+3+0-1+2-3+1+4=-6+2+4=0
    R: ABD
-6.
+6. termenii sirului sunt construti dupa principiul fibonacci astfel fiecare termen are un nr de cifre egal cu suma cifrelor celor 2 termeni din fata sa 
+   A. x=15 k=6 
+      2 2 4 6 10   R:4
+   B. x=2 k=8 
+      1 1 2 3 5 8  R:5
+   C. x=14  k=26
+      2 2 4 6 10 16 26 R:16
+   D. x=5 k=13 
+      1 1 2 3 5 8 13  R:8
+   R:BC
 7.
 8. R:C
 9. C. Dacă m = 8 și n = 12 -->m+n=20 cmmdc(m,n)=4  20-4=16 
    D. Dacă m = 6 și n = 11, returnează 15  -->m+n=6+11=17  cmmdc(6,11)=1   17-1=16
    R:BC?
+10.R:AD
+B.1 dupa ultima parcurgere pt n=10 raman deschise 3 colivii
+B.2 coliviile deschise sunt: 1, 4, 9
+B.3 colivia cu numarul k este vizita de un numar de ori egal cu divizorii sai din multimea {1,2,3,...,k} daca luam in calcul si parcurgerea initiala atunci cand maimuta deschide toate coliviile sau din multimea {2,3,...n} in sens contrar. 
+B.4 raman deschise coliviile care au un nr par de divizori din {2,....,n} sau impar din {1,2,...,n}
+B.5 raman deschise un numar de colivii egal cu numarul patratelor perfecte <=n 
+B.6 
