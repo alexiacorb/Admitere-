@@ -139,5 +139,38 @@
      $D1= $A4 * $C3 -->depinde de A2 ----
      Y(A2)=13 
      
+     X(C4)
+      C4= $A3 / 2
+      A3=$B1-$D3=15-4=11
+      B1=$B3+D3=11+4=15
+      B3=11
+      D3=$D2+2=4
+      D2=2 
+     X(C4)=5 =X(A2)
      
+     Y(B2)
+     A2= $B1+$B2
+     B2= $D3 + 11
+     $A4=5-$A2=5-15-B2 
+     D1= $A4 * $C3= (15-B2)*C3
+     Y(B2) =16-4=12
+     Y(B2)=Y(A2)+1
+     
+     R:BD
+  28. 
+  29. ex fibonacci(5)=Aici fibonacci(4)+fibonacci(3)
+         fibonacci(4)=Aici fibonacci(3)+fibonacci(2)
+         fibonacc1(3)=Aici fibonacci(2)+fibonacci(1)
+         fibonacc1(3)=Aici fibonacci(2)+fibonacci(1)
+         fibonacci(2)
+         
+         
+  30. E(x) = a0 + a1*x + a2*x^2 +a3*x^3 + a5*x^5=
+           = a0+ x*(a1+a2*x+a3*x^2+a5*x^4)=
+           = a0+ x*(a1+x*(a2+a3*x+a5*x^3))=
+           = a0+ x*(a1+x*(a2+x*(a3+a5*x^2)))=
+           = a0+ x*(a1+x*(a2+x*(a3+x*(a5*x))))
+           
+      --> 5 inmultiri 
+      R:B
      
