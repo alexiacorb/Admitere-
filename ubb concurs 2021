@@ -109,5 +109,35 @@
      nr puncte=14*15/2+1+3+5+7+9+11+13+15+17+19+21+23+25+14=105+183=288 (suma lui gaus pana la n-1 + suma primelor n-2 nr impare + n-1)
      R:BD
   22. R:B
-  23. 
-              
+  23. R:C
+  24.
+  25.
+  26.
+  27.  X(A2)
+      A2= $B1+$B2
+        B1=$B3+$D3
+        B3=11
+        D3=$D2+2
+        D2=2
+      B2=D3
+      X(A2)=5   ($)
+     
+     $A1=B4-C1=9-3=6 -->Nu depinde de A2
+     $B4=C1*C1=3*3=9 -->Nu depinde de A2
+     $C1=3 -->Nu depinde de A2
+     $A4=5-$A2 -->depinde de A2 ----
+     $A3=$B1-$D3=$B3+$D3-$D3=$B3=11 -->nu depinde 
+     $B1=$B3+$D3=11+4=15 -->nu depinde  
+     $B3=11 -->Nu depinde 
+     $D3=$D2+2=2+2=4 -->nu depinde
+     $D2=2 -->nu depinde
+     $B2=$D3 + 11=4+11=15 -->Nu depinde 
+     $C2=$D3 + $D2=4+2=6 -->Nu depinde 
+     $C3= $D4 * $D4=5*5=25 -->Nu depinde 
+     $D4= 15/3=5 --> nu depinde
+     $C4= $A3 / 2=11/2=5 -->nu depinde 
+     $D1= $A4 * $C3 -->depinde de A2 ----
+     Y(A2)=13 
+     
+     
+     
