@@ -158,12 +158,19 @@
      
      R:BD
   28. 
-  29. ex fibonacci(5)=Aici fibonacci(4)+fibonacci(3)
+  29. ex fibonacci(5)=Aici fibonacci(4)+fibonacci(3)=5+3=8
+         fibonacci(4)=Aici fibonacci(3)+fibonacci(2)=3+2=5
+         fibonacc1(3)=Aici fibonacci(2)+fibonacci(1)=3
+         fibonacc1(3)=Aici fibonacci(2)+fibonacci(1)=2+1=3
+         fibonacci(2)=Aici fibonacci(1)+fibonacci(0)=2
+         fibonacci(2)=Aici fibonacci(1)+fibonacci(0)=2
+         fibonacci(1)=1
+         Aici pt fibonacci(5) se afiseaza de 6 ori 
+        
          fibonacci(4)=Aici fibonacci(3)+fibonacci(2)
          fibonacc1(3)=Aici fibonacci(2)+fibonacci(1)
-         fibonacc1(3)=Aici fibonacci(2)+fibonacci(1)
-         fibonacci(2)
-         
+         fibonacci(2)=Aici fibonacci(1)+fibonacci(0)=2
+         fibonacci(2)=Aici fibonacci(1)+fibonacci(0)=2
          
   30. E(x) = a0 + a1*x + a2*x^2 +a3*x^3 + a5*x^5=
            = a0+ x*(a1+a2*x+a3*x^2+a5*x^4)=
