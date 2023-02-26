@@ -95,4 +95,26 @@
     3 consoane -->1 varianta 
     3+6+3+1=13 
     R:B
-17.
+17. Numarul total de elemente asterix si elemente . este egal cu n*n
+    daca n este par --> nr elementelor de tip '*' este egal cu 4*(n-2)\\nr elemente care formeaza conturul patratului exceptand elementele de pe diagonale\\+2*n
+    daca n este impar -->  nr elementelor de tip '*' este egal cu 4*(n-2)\\nr elemente care formeaza conturul patratului exceptand elementele de pe diagonale\\+2*n-1
+    
+    n=5 -->nr *=4*3+2*5-1=12+9=21 nr .=25-21=4 
+    n=7 -->nr *=4*5+2*7-1=33      nr .=49-33=16
+    n=18-->nr *=4*16+2*18=100     nr .=324-100=224 
+    R:CD
+18. R:AC (D?)
+19. n=5 x=2 b=1+1+2+3=7    
+            a=7+4+5=7+9
+            a-b=7+9-7=9
+    n=3 x=2 b=1+1=2
+            a=2+2+3=5+2=7
+            a-b=7-2=5
+    n=1 n=1 b=1
+            a=2
+            a-b=1
+    c1c2c3...cx-->aranajamente n luate cate x=n!/(n-x)!
+    aranjamente(5,2)=5!/3!=4*5=20
+    aranjamente(3,2)=3!/2!=3
+    R:BD
+    
