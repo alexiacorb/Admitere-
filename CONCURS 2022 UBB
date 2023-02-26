@@ -150,4 +150,29 @@
     fibonacci(0)="Aici" 1
     Aici se afiseaza de 3 ori -->de fibonacci de (n) ori 
     R:A
-24.
+24. E(X)=a0+a1*x+a2*x^2+a3*x^3+a4*x^4=
+        =a0+x*(a1+a2*x+a3*x^2+a4*x^3)=
+        =a0+x*(a1+x*(a2+a3*x+a4*x^2)=
+        =a0+x*(a1+x*(a2+x*(a3+a4*x)))
+    R: A
+25.
+26.f(arr,1,9,-10)
+   arr={10, 1, 5, 4, 7, 12, 1, 12,6}
+   n1=f(arr,2,9,-10)
+   n2=0
+   f(arr,2,9,-10)
+   n1=f(arr,3,9,-10)
+   n2=0
+   f(arr,3,9,-10)
+   n1=f(arr,4,9,-10)
+   n2=0
+   f(arr,4,9,-10)
+   n1=f(arr,5,9,-10)
+   n2=0
+   f(arr,5,9,-10)
+   f(arr,6,9,-10)
+   f(arr,7,9,-10)
+   f(arr,8,9,-10)
+   n1=f(arr,9,9,-10)=0  -10+1!=9 -->n2=f(arr,10,
+27.
+   
