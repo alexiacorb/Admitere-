@@ -72,4 +72,27 @@
            used[27]=True sum=7*7*7+2*2*2=8+49*7=351 n=351 nr=2
            used[351]=True sum=1+125+27=125+28=153 n=153 nr=3
            used[153]=True sum=27+1+125=153 n=153 nr=4
-     n=3 -->4 
+    n=3 -->4 
+    n=30 -->used[30]=True sum=27 n=27 nr=1
+           used[27]=True sum=7*7*7+2*2*2=8+49*7=351 n=351 nr=2
+           used[351]=True sum=1+125+27=125+28=153 n=153 nr=3
+           used[153]=True sum=27+1+125=153 n=153 nr=4
+    n=30 -->4 
+    R: ACD
+13. f(20,20)=20+f(10,40)=20+40+f(5,80)=60+80+f(2,160)=140+160+f(1,320)=300+320+f(0,640)
+    R:D
+14. R:B
+15. (X || Z) && (X || Y) 
+    (F || T) && (F || F)=T&&F=F
+    (T || F) && (T || F)=T&&T=T
+    (F || F) && (F || T)=F&&T=F
+    (T || T) && (T || T)=T&&T=T
+    R:BD            
+16. {a,b,c,d,e} lungime={1,2,3} nr impar de cons -->1 consoana sau 3
+    1 consoana -->3 variante pt lung 1
+                  {a,b} {a,c} {a,d} {b,e} {c,e} {d,e}-->6 variante pt lung 2
+                  {a,b,e} {a,c,e} {a,d,e} -->3 var pt lung 3
+    3 consoane -->1 varianta 
+    3+6+3+1=13 
+    R:B
+17.
