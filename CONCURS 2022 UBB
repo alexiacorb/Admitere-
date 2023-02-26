@@ -127,4 +127,27 @@
 20b. a=3 b=4 c=7 
      s(3,4,7)=4*s(3,3,7)=4*7*s(2,2,6)=28*6*s(1,1,5)=168*1=168
      R:D
-     
+21.  
+22. x=15 k=8
+    15 16 1615 ....
+    2 2 4 6 8 14
+    -->6
+    x=2 k=6
+    2 3 32
+    1 1 2 3 5 8 
+    -->5
+    x=14 k=27
+    2 2 4 6 10 16 26 42
+    -->26
+    x=5 k=12
+    1 1 2 3 5 8 13 
+    -->8
+    R:ACD
+23. fibonacci(4)=fibonacci(3)+fibonacci(2)=3+2=5  -->afiseaza de 3+2=5 ori 
+    fibonacci(3)=fibonacci(2)+fibonacci(1)=2+1=3  -->afiseaza de 3 ori Aici   
+    fibonacci(2)=fibonacci(1)+fibonacci(0)=1+1=2  -->afiseaza de 2 ori 
+    fibonacci(1)="Aici" 1
+    fibonacci(0)="Aici" 1
+    Aici se afiseaza de 3 ori -->de fibonacci de (n) ori 
+    R:A
+24.
