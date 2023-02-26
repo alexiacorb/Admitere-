@@ -39,4 +39,8 @@
  5. R:BC
  6. 6770
     R:D
- 7. 
+ 7. D. nr= 15243 și k = 10
+       10>3-->nr1=1524 decrementare (1524,6)
+       6>4 -->nr1=152 decrementare(152,1)
+       2>2 f-->decrementare(151,0)=151
+       R:ABD
