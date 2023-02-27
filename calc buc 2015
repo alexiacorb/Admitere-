@@ -36,4 +36,7 @@ f2(5,1)=f1(5,f2(5,0))=f1(5,1)=5+f1(5,0)=5
 R:C
 12. 
 13 C
-14.
+14. daca sirul e deja aranjat descresc nu se efectueaza nici o interschimbare 
+    R: C
+15.
+
