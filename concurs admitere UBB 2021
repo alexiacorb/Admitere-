@@ -44,5 +44,5 @@ A.  NU (((a > 0) ȘI (b < 1)) SAU (a > 1))  -->(a<=0 || b>=1) && a<=1  -->( F ||
 B. ((b > 0) ȘI (b < 1)) SAU ((a > 0) ȘI (a < 2))  -->(F&&A) || (A&&A)=A
 C. (NU (a > b)) SAU (NU (b > 0)) -->a<=b || b<=0 -->F || A= A
 D. (a > 0) SAU ((b > 0) ȘI (b < 0)) SAU (a < 1) -->A || ((F && F) || F)=A || F=A
-R:ACD
+R:BCD
 23:38
