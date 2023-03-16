@@ -1,0 +1,28 @@
+1. A
+2. n=25 
+   x=0 z=1 
+   x=1 z=1+2*1=1+2=3 z=4 
+   x=2 z=4+2*2=8 z=9
+   x=3 z=9+2*3=15 z=16
+   x=4 z=16+4*2=16+8=24 z=25 
+   x=5 z=25+2*5=35 z=36 
+ pt 25 -->5 pt 35 -->5 
+ programul returneaza numarul patratelor pergfecte mai mici sau egale cu n
+ n>=85  n<100 --> returneaza 9
+ 1^2 2^2 3^2 4^2 5^2 6^2 7^2 8^2 9^2 10^2
+  1   4   9  16  25  36  49  64   81  100 
+    R:BD  
+  3.  (NOT Y OR Z) OR (X AND Y)
+      A. (!F|| F) || (F&&F)=(T || F) || F=T
+      B. (!F|| T) || (F&&F)=(T || F)=T
+      C. (!T|| F) || (F&&T)=F||F=F
+      D. (!F|| T) || (T&&F)=T||F=T
+      E. (!T|| T) || (F&&T)=T||F=T
+      R:ABDE
+  4. s=-1+3=2
+  p=2
+  R:D
+  5. numarul s norocos trebuie sa fie impar 
+     R:CB
+  6. 
+  
