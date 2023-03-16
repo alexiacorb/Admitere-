@@ -24,5 +24,9 @@
   R:D
   5. numarul s norocos trebuie sa fie impar 
      R:CB
-  6. 
-  
+  6. puneB(mat, 7, 2, 4)=puneB(mat, 7, 2, 5)= puneB(mat,7,2,6)=puneB(mat,7,3,4)=puneB(mat,7,3,5)=puneB(mat,7,4,6)
+     se autoapeleaza de 5 ori 
+     puneB(mat, 9, 3, 5)=puneB(mat,9,3,6)=puneB(mat,9,3,7)=puneB(mat,9,4,5)=puneB(mat,9,4,6)=puneB(mat,9,5,6)
+     se autoapeleaza de 5 ori 
+     R:AB
+ 
