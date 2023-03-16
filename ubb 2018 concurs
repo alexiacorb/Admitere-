@@ -8,4 +8,8 @@ C. (F||F) && (T||T)=F&&T=F
 D. (T||T) && (F||T)=T&&T=T
 E. (F||F) && (T||F)=F&&T=F
 R:AD
-4.
+4. a=b=8 
+   calcul(8,8)=calcul(4,16)+8*0=calcul(4,16)=calcul(2,32)+16*0=calcul(2,32)=calcul(1,64)=calcul(0,128)+64=64
+   calcul(1000,2)-->calcul(500,4)-->calcul(250,8)-->calcul(125,16)-->calcul(62,32)-->calcul(31,64)-->calcul(15,128)-->calcul(7,256)-->calcul(3,256*2)-->calcul(1,256*4)-->calcul(0,256*8)
+  se autoapeleaza de 10 ori 
+  
