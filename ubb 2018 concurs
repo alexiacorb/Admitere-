@@ -25,7 +25,8 @@ R:AD
   se autoapeleaza de 10 ori 
   calcul(3,5)=calcul(1,10)+5=calcul(0,20)+5+10=15
   a/2+2*b=3/2+2*5=1+10=11
-  R:BE
+  BE adevarate
+  R:acd
 5. 
 6.  factoriPrimi(120, 2, 0, x)  n=120/2=60/2=30/2=15 
      factoriPrimi(15, 3, 1, x)  n=15/3=5
