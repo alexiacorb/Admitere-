@@ -1,3 +1,4 @@
+?1
 1. alg(81,3)
    (81)10=(10000)3
    s=1
@@ -6,9 +7,8 @@
    (6)10=(20)3
    20%2=0 -->return true
    (3)10=(10)3
-   10%2=0 -->return true 
-   returneaza true chiar daca numarul nu e divizibil cu (b-1) e de ajuns ca suma cifrelor in baza b sa fie divizibila
-   R:AD
+   1%2!=0 -->return false 
+   R:CD
 2. s=-1+3=2  p=0
    R:B
 3. (X OR Z) AND (NOT X OR Y)
