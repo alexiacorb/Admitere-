@@ -27,8 +27,26 @@ R:AD
   a/2+2*b=3/2+2*5=1+10=11
   BE adevarate
   R:acd
-5. 
-6.  factoriPrimi(120, 2, 0, x)  n=120/2=60/2=30/2=15 
+5. A  a=1 b=1 c=1 n=5
+      1<5
+      a=2 b=2 c=2 d=2
+      a=3 b=3 c=3 d=2
+      a=4 b=4 c=4 d=2
+      a%d=0 -->c=5 b=d=2 d=3 -->return 2 fals
+  B.   a=1 b=1 c=1 n=5
+       c=2 d=2 a=2 b=2 
+       c=3 d=2 a=3 b=3
+       c=4 d=2 a=4 b=4
+       c=5 d=2 a=5 b=5 -->nu e ok 
+  C. a=1 b=1 c=1 n=5 
+      a=2 d=2 c<n d<=a --> c=2 b=d=2 d=3 
+      a=3 d=2 -->a=3 d=3 -->c=3 b=d=3
+      a=4 d=2 -->c=4 b=d=2 
+          d=3 
+          d=4 -->c=5 b=d=4
+      return 4 fals
+  D. 
+ 6.  factoriPrimi(120, 2, 0, x)  n=120/2=60/2=30/2=15 
      factoriPrimi(15, 3, 1, x)  n=15/3=5
      factoriPrimi(5,4,2,x) 
      FactoriPrimi(5,5,2,x) n=5/5=1
