@@ -60,6 +60,6 @@
 			stCrt=1 
 			10*920<1*0 f-->produs(1092, 0)=900*10=9000
 			
-29. log2(n)*log4(n)=log2(n)*log2(n)/log2(4)=log2(n)^2/2
-    log2(n)*log4(n)=log4(n)/log4(2)*log4(n)=log4(n)^2/(1/2)=2*log4(n)^2
-    R:C
+29. log2(n)*log4(n^4)=log2(n)*log2(n^4)/log2(4)=4*log2(n)^2/2=2*log2(n)^2=log2(n^2)^2
+    log2(n)*log4(n^4)=log4(n)/log4(2)*4*log4(n)=2*4*log4(n)^2/(1/2)=8*log4(n)^2
+    R:BC
