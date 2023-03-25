@@ -1,0 +1,86 @@
+1. x=9 st=1 dr=9
+       mij=(st+dr)/2=(1+9)/2=5
+       5*5>x --> dr=mij-1=4
+       st=1 dr=4 mij=(1+4)/2=2 
+       2*2<x -->st=mij+1=3
+       st=3 dr=4 -->mij=(st+dr)/2=3 
+       3*3=x -->return true
+   R:C
+2.  A. a = 107 și b = 101
+       x=1*107=107
+       x=7*107=..9
+       x=9*107=..3
+       x=3*107=..1
+       x=1*107=107
+       din 4 in 4 rezultatul da 107-->101%4=1 -->return 107
+    B.  a = 1001 și b = 101
+        x=1*1001=1001
+        x=1*1001=1001
+        ......
+        x=1*1001=1001
+        -->returneaza 1001
+    C. pt a=6 b=1001
+       x=1*6=6
+       x=6*6=36
+       x=6*6=36
+       x=6*6=36
+       x=6*6=36
+       nu va da 6 va da 36
+     R:ACD
+ 3. afis(4)=4 afis(2) 4
+    afis(2)=2 afis(1) 2
+    afis(1)=1 afis(0) 1
+    afis(0)=0
+    
+    4 2 1 0 1 2 4 
+    R:AD
+ 4. cauta(6,3)
+    6(10)=(20)3
+    n are un nr de cifre 0 in reprezentarea in baza b egal cu nr de impartiri intregi la b
+    R:C
+ 5. B
+ 6. 6770 
+    R:D
+ 7. decrementare(501,3)
+    3>1 decrementare(50,1)
+    1>0 decrementare(5,0) =5
+    decrementare(500,2)
+    2>0 -->decrementare(50,1)
+    1>0 -->decrementare(5,0)=5
+    decrementare(55,1)
+    1>5 F--> decrementare(54,0)=54
+    R:ABD
+ 8. C
+ 9. B
+ 10.  a = 9
+      i=1,8   j=i+2,9
+      i=1 j=3,9 
+          i+j>a-1  -->j=8 j=9 -->2 perechi 
+      i=2 j=4,9 
+          i+j>a-1  -->j=7 j=8 j=9 -->3 perechi 
+      i=3 j=6 7 8 9 -->4 perechi 
+      i=4 -->j=6 7 8 9 -->4 perechi 
+      i=5 -->j=7 8 9 -->3perechi 
+      i=6 -->j=8 9  -->2perechi 
+      i=7 -->j=9 --<>1 pereche
+      2+3+4+4+3+2+1=19 
+      R:C
+  11. subprogramul calc suma cifrelor pare
+       ceFace(9876)=8+6=14 
+       R:C
+  12. A. n=10 -->used[10]=1  --> n=1*1*1+0*0*0=1 nr=1
+         n=1 -->used[1]=1 -->n=1*1*1=1 nr=2 
+         return 2
+      C. n=3 -->used[3]=1 nr=1 n=3*3*3=27
+         n=27 -->used[27]=1 nr=2 n=2*2*2+7*7*7=8+343=351
+         n=351 -->used[351]=1 nr=3 n=3*3*3+5*5*5+1*1*1=27+125+1=153 
+         n=153 -->used[153]=1 nr=4 n=1*1*1+5*5*5+3*3*3=153
+         return 4
+      D. generare(3)=4
+         generare(30)=4
+         n=30 -->used[30]=1 nr=1 n=3*3*3+0*0*0=27
+         n=27 -->used[27]=1 nr=2 n=2*2*2+7*7*7=8+343=351
+         n=351 -->used[351]=1 nr=3 n=3*3*3+5*5*5+1*1*1=27+125+1=153 
+         n=153 -->used[153]=1 nr=4 n=1*1*1+5*5*5+3*3*3=153
+         ACD
+   13. 
