@@ -1,0 +1,22 @@
+2.1 Edit, ia a III-a (2017)
+1. a) 
+ int nr_cif_bin(unsigned int n){
+    int k=0;
+    while(n!=0){
+        k++;
+        n=n/2;
+    }
+    return k;
+}
+b)
+
+2.2 Edit, ia a IV-a (2018)
+1) a) i) 
+int f(int m,int n){
+    if(m<n){
+        return m;
+    }
+    return f(m-n,n);
+}
+ii) subprogramul calculeaza m%n
+b)
