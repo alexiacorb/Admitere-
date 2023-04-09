@@ -20,3 +20,40 @@ int f(int m,int n){
 }
 ii) subprogramul calculeaza m%n
 b)
+c) #include <iostream>
+
+using namespace std;
+int div(int cif,int a[10000]){
+    int s=0;
+    if(a[cif]%5!=0){
+        return 0;
+    }
+    for(int i=1;i<=cif;i++){
+        s=s+a[i];
+    }
+    if(s%3==0){
+        return 1;
+    }
+    return 0;
+}
+int main() {
+    int cif,a[10000];
+    cin>>cif;
+    for(int i=1;i<=cif;i++){
+        cin>>a[i];
+    }
+    cout<<div(cif,a);
+    return 0;
+}
+d) 
+ii) (i-2)(j-1)/2+j            i) (j-2)(j-1)/2+i
+21 --> 0*0/2+1=1                  -1*0/2+2=2              
+31 --> 1*0/2+1=1  
+iii) (i-2)(j-1)/2+i           iv) (j-2)(i-1)/2+j
+21 -->0/2+1=1                     -1*1/2+1=1
+31-->1*0/2+3=3                    -1*2/2+3=-1+3=2 
+                              32-->0*2/2+2
+                              
+   R: V
+ f) ii) este conex
+    iii) 
