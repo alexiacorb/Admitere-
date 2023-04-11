@@ -96,3 +96,164 @@ int main()
         }
     return 0;
 }
+5. 
+8. Ashleigh Barty -->8017-(2000-1300)=7.317
+   Karolina Pliskova -->5940+2000-430=7.510
+   Simona Halep -->5561-(2000-1300)=5561-700=4.861
+   rasp nu 
+11. #include <iostream>
+
+using namespace std;
+ struct datanasterii{
+    int zi,luna,an;
+ }d;
+int main()
+{
+    int anmin=1000000,lunamin=13,zimin=32;
+    while(cin>>d){
+        if(d.an<anmin){
+            anmin=d.an;
+            lunamin=d.luna;
+            zimin=d.zi;
+        }
+        else{
+            if(d.an==amin){
+                if(d.luna<lunamin){
+                    anmin=d.an;
+                    lunamin=d.luna;
+                    zimin=d.zi;
+                }
+                else{
+                    if(d.luna==lunamin){
+                        if(d.zi<=zimin){
+                             anmin=d.an;
+                             lunamin=d.luna;
+                             zimin=d.zi;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    cout<<zimin<<" "<<lunamin<<" "<<anmin;
+    return 0;
+}
+
+1.4
+1. #include <iostream>
+
+using namespace std;
+ 
+int main()
+{
+    int x,a[100][100],m,n,ok=0;
+    cin>>n>>m;
+    cin>>x;
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=m;j++){
+            cin>>a[i][j];
+            if(a[i][j]==x){
+                ok=1;
+                break;
+            }
+        }
+    }
+    if(ok==1){
+        cout<<"Da";
+    }
+    else{
+        cout<<"Nu";
+    }
+    return 0;
+}
+2. #include <iostream>
+
+using namespace std;
+ 
+int main()
+{
+    int a[100][100],b[100][100],s[100][100],prod[100][100],n,m,p,q; 
+    ///matricea a are n linii si m coloane 
+    ///matricea b are p linii si q coloane 
+    cin>>n>>m;
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=m;j++){
+            cin>>a[i][j];
+        }
+    }
+    cin>>p>>q;
+    for(int i=1;i<=p;i++){
+        for(int j=1;j<=q;j++){
+            cin>>b[i][j];
+        }
+    }
+    if(n==p && m==q){
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=m;j++){
+                s[i][j]=a[i][j]+b[i][j];
+            }
+        }
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=m;j++){
+                cout<<s[i][j]<<" ";
+            }
+            cout<<endl;
+        }
+    }
+    else{
+        cout<<"Nu se poate calcula suma";
+    }
+    return 0;
+}
+3. #include <iostream>
+
+using namespace std;
+ 
+int main()
+{
+    int n,a[100][100],s=0,p=1;
+    cin>>n;
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=n;j++){
+            cin>>a[i][j];       
+        }
+    }
+    for(int i=1;i<=n;i++){
+       s=s+a[i][i];
+       p=p*a[i][n-i+1];
+    }
+    cout<<s<<" "<<p;
+    return 0;
+}
+5. #include <iostream>
+
+using namespace std;
+ 
+int main()
+{
+    int m,n,a[100][100],lin,col;
+    cin>>m>>n;
+    for(int i=1;i<=m;i++){
+        for(int j=1;j<=n;j++){
+            cin>>a[i][j];       
+        }
+    }
+    cin>>lin>>col;
+    for(int i=lin;i<=m;i++){
+        for(int j=1;j<=n;j++){
+            a[i][j]=a[i+1][j];
+        }
+    }
+    for(int j=col;j<=n;j++){
+        for(int i=1;i<=m;i++){
+            a[i][j]=a[i][j+1];
+        }
+    }
+    for(int i=1;i<=m-1;i++){
+        for(int j=1;j<=n-1;j++){
+            cout<<a[i][j]<<" ";       
+        }
+        cout<<endl;
+    }
+    return 0;
+}
