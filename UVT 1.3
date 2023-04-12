@@ -423,3 +423,97 @@ int main() {
     cout<<putere(n);
     return 0;
 }
+12.
+a) #include <iostream>
+using namespace std;
+double suma1(double n){
+    if(n==0){
+        return 0;
+    }
+    return 1/n+suma1(n-1);
+}
+int main()
+{
+    double n;
+    cin>>n;
+    cout<<suma1(n);
+    return 0;
+}
+b)
+#include <iostream>
+using namespace std;
+double suma2(double n){
+    if(n==0){
+        return 0;
+    }
+    return n/(n+1)+(n+1)/n+suma2(n-1);
+}
+int main()
+{
+    double n;
+    cin>>n;
+    cout<<suma2(n);
+    return 0;
+}
+13. #include <iostream>
+
+using namespace std;
+int elimpare(int n){
+   if(n==0){
+       return n;
+   }
+   if(n%2==0){
+       return elimpare(n/10);
+   }
+   return elimpare(n/10)*10+n%10;
+}
+int main()
+{
+    int n;
+    cin>>n;
+    cout<<elimpare(n);
+    return 0;
+}
+1.6
+1. /******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n,v[100],aux;
+    cin>>n;
+    for(int i=1;i<=n;i++){
+        cin>>v[i];
+    }
+    for(int i=1;i<=n/2-1;i++){
+        for(int j=i+1;j<=n/2;j++){
+            if(v[i]>v[j]){
+                aux=v[j];
+                v[j]=v[i];
+                v[i]=aux;
+            }
+        }
+    }
+    for(int i=n/2+1;i<=n-1;i++){
+        for(int j=i+1;j<=n;j++){
+            if(v[i]<v[j]){
+                 aux=v[j];
+                v[j]=v[i];
+                v[i]=aux;
+            }
+        }
+    }
+    for(int i=1;i<=n;i++){
+        cout<<v[i]<<" ";
+    }
+    return 0;
+}
