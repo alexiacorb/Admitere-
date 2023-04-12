@@ -509,3 +509,24 @@ int main()
     }
     return 0;
 }
+1.7.
+a)#include <iostream>
+#include <cstring>
+
+using namespace std;
+int prop(char s[100]){
+    int k=0;
+    for(int i=1;i<strlen(s);i++){
+        if(strchr("?!,",s[i])!=NULL){
+            k++;
+        }
+    }
+    return k;
+}
+int main()
+{
+    char s[100];
+    cin.getline(s,100);
+    cout<<prop(s);
+    return 0;
+}
