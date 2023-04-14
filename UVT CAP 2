@@ -39,3 +39,37 @@ int main()
     cout<<termeni(n);
     return 0;
 }
+c) /******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+int divizibil(int n,int c[1000]){
+    int s=0;
+    if(c[0]%5!=0){
+        return 0;
+    }
+    for(int i=n-1;i>=0;i--){
+        s=s+c[i];
+    }
+    if(s%3==0){
+        return 1;
+    }
+    return 0;
+}
+int main()
+{
+    int n,c[1000]={};
+    cin>>n;
+    for(int i=n-1;i>=0;i--){
+        cin>>c[i];
+    }
+    cout<<divizibil(n,c);
+    return 0;
+}
