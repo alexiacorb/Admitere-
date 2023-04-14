@@ -1,0 +1,41 @@
+Edit, ia a IV-a (2018)
+1. a)
+i)#include <iostream>
+
+using namespace std;
+int f(unsigned int m,unsigned int n){
+    if(m<n){
+        return m;
+    }
+    return f(m-n,n);
+}
+int main()
+{
+    int m,n;
+    cin>>m>>n;
+    cout<<f(m,n);
+    return 0;
+}
+
+ii) suprogramul calculeaza m%n;
+b) ///nr de termeni puteri a lui doi care prin adunare compun nr = cu nr de biti 1 din scrierea nr in baza 2
+   #include <iostream>
+
+using namespace std;
+int termeni(int n){
+    int k=0;
+    while(n!=0){
+        if(n%2==1){
+            k++;
+        }
+        n=n/2;
+    }
+    return k;
+}
+int main()
+{
+    int n;
+    cin>>n;
+    cout<<termeni(n);
+    return 0;
+}
