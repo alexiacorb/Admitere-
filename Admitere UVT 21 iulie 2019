@@ -27,4 +27,30 @@ int main() {
     }
     return 0;
 }
-2. 
+2. a) ii)
+   b) iii) 
+   c) #include <iostream>
+
+using namespace std;
+int m,v[1000]={};
+void citire(int &m,int v[1000]){
+    cin>>m;
+    for(int i=1;i<=m;i++){
+        cin>>v[i];
+    }
+}
+int distincte(int m,int v[1000]){
+    for(int i=1;i<=m-1;i++){
+        for(int j=i+1;j<=m;j++){
+            if(v[i]==v[j]){
+                return 0;
+            }
+        }
+    }
+    return 1;
+}
+int main() {
+    citire(m,v);
+    cout<<distincte(m,v);
+    return 0;
+}
