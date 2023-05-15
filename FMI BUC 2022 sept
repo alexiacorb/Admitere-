@@ -17,11 +17,11 @@
    2*2021=4042
    R:B)
 7. 
-8. 
+8. returneaza 0 daca si numai daca are un numar egal de cifre pare si impare in scrierea binara 
 9.
-10.
+10.d
 11.
-12.
+12. f(15092022, 133) = f(1509202, 66)-2= f(150920,33)-2+2=f(15092,16)-4=f(1509,8)-4+2=f(150,4)-2+9=f(15,2)+7=f(1,1)+12=f(0,0)+11=11
 13. a ← 15
     b ← 2022
     k ← 0
