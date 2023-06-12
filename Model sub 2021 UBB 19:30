@@ -1,0 +1,53 @@
+1.d
+2.        1    2    3      4     5      6      7 
+   s ← (fals, fals, fals, fals, fals, fals, adevărat, fals, fals, fals)
+   k ← 10, i ← 3
+   evaluare(s, k, i)
+   F || e(s,4) 
+   F || e(s,5)
+   F || e(s,6)
+   F || e(s,7)
+   de 4 ori 
+   
+         1     2      3    4     5     6      7       8
+   s ← (fals, fals, fals, fals, fals, fals, fals, adevărat)
+   k ← 8, i ← 4
+   evaluare(s, k, i)
+   F || e(s,5)
+   F || e(s,6)
+   F || e(s,7)
+   F || e(s,8)
+   de 4 ori 
+   R:B 
+3. A
+4. 
+5. f(4,3)= 3*f(3,3)=3*3*f(2,3)=3*3*3*f(1,3)=3^4*f(2,3)=....
+   R:C
+6. (NOT Y OR Z) OR (X AND Y)
+   A. X ← fals; Y ← fals; Z ← fals;         (T||F)||(F&F)=T||F=T
+   B. X ← fals; Y ← adevărat; Z ← fals;     (F||F)||(F&T)=F||F=F
+   C. X ← adevărat; Y ← fals; Z ← adevărat;   (T||T)||(T&&F)=T||F=T
+   D. X ← fals; Y ← adevărat; Z ← adevărat;    (F||T)||(F&&T)=T||F=T
+   R: ABD
+7. BC
+8. AB
+9. s(16)=s(31)=s(61)=61
+   s(61)=61
+   s(4)=s(7)=s(13)=s(25)=s(49)s(2*49-1)!=61
+   s(31)=s(61)=61
+   ABD
+10. AC
+11. AD
+12. B
+13. a=8 
+    i=1,7 
+    i=1 j=7,8 -->2 var 
+    i=2 j=6,7,8 -->3 var
+    i=3 j=5,6,7,8 -->4 var 
+    i=4 j=6,7,8 -->3 var
+    i=5 j=7,8 -->2 var 
+    i=6 j=8 -->1 var
+    2+3+4+3+2+1=15
+    R:B
+   
+   
