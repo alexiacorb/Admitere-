@@ -20,7 +20,7 @@
    de 4 ori 
    R:B 
 3. A
-4. 
+4. BC
 5. f(4,3)= 3*f(3,3)=3*3*f(2,3)=3*3*3*f(1,3)=3^4*f(2,3)=....
    R:C
 6. (NOT Y OR Z) OR (X AND Y)
@@ -28,9 +28,9 @@
    B. X ← fals; Y ← adevărat; Z ← fals;     (F||F)||(F&T)=F||F=F
    C. X ← adevărat; Y ← fals; Z ← adevărat;   (T||T)||(T&&F)=T||F=T
    D. X ← fals; Y ← adevărat; Z ← adevărat;    (F||T)||(F&&T)=T||F=T
-   R: ABD
+   R: ACD
 7. BC
-8. AB
+8. AB >C?
 9. s(16)=s(31)=s(61)=61
    s(61)=61
    s(4)=s(7)=s(13)=s(25)=s(49)s(2*49-1)!=61
@@ -59,6 +59,46 @@
 16. R:BD
 17. returneaza nr patratelor perf <=n
     R:AC
-18. 
+18. p(7,2,4)=p(7,2,5)=p(7,2,6)=p(7,3,4)=p(7,3,5)=p(7,4,5)
+    p(9,3,5)=p(9,3,6)=p(9,3,7)=p(9,4,5)=p(9,4,6)=p(9,5,6)
+    R:B    ??AB
+19. calcul(3,3)=calcul(1,6)+3=6=2*a
+    calcul(1,6)=calcul(0,12)+3=0+3=3
+    c(1000,2)=c(500,4)=c(250,8)=c(125,16)=c(62,32)=c(31,64)=c(15,128)=c(7,256)=c(3,..)=c(1,...)=c(0,..)--> 10 autoapeluri 
     
-   
+    c(3,2)=c(1,4)+2=6
+    c(1,4)=c(0,8)+4=4
+    a/2+2*b=3/2+2*2=1+4=5
+    R:AC
+20. fp(120,2,0)=fp(15,3,1)=fp(5,4,2)=fp(5,5,2)
+    fp(750,2,0)=fp(375,3,1)=fp(125,4,1)=fp(125,5,1)
+    R:AD
+?21. Ack(1,2)=    Ack(0,Ack(1,1))=Ack(0,3)=4
+    Ack(1,1)=    Ack(0,Ack(1,0))=Ack(0,Ack(0,1))=Ack(0,2)=3
+    8 autoapeluri 
+    Ack(1,3)=   Ack(0,Ack(1,2))
+23. A. x = 15 și k = 6 
+       2 2 4 6 -->R:4
+    B. x = 2 și k = 8
+       1 1 2 3 5 8 -->5 
+    C. x = 14 și k = 26
+       2 2 4 6 10 16 26 -->16
+    D. x = 5 și k = 13
+       1 1 2 3 5 8 13 -->8
+    R:BC
+24.
+25. CB
+26. BC
+27.
+28. AC
+29. 
+30. linia 1 -->1 element nenul 
+    linia 2-->2 elemente nenule 
+    linia 3-->2^2 elemente nenule 
+    .....
+    linia 8 -->2^7 elemente nenule 
+    linia 8 contine un element nul -->2^7+1 elemente pe ultima linie=129 elemente 
+    matricea contine 8*129 elemente =1032
+    1+2+2^2+...+2^8=1+2+4+8+16+32+64+128=255
+    1032-255=777
+    R:A
