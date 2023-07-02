@@ -1,0 +1,44 @@
+Partea I
+1.a)ziua 1 -->x
+   ziua 2--> 2^1*x
+   ziua 3--> 2^2*x
+   ...............
+   ziua 48-->2^47*x=y
+   y=suprafata lacului
+   y/4=2^47*x/4=2^45*x
+   R:(i) 46
+b)   (i) X==0
+     (ii) f(S/2,X-1)
+2. a) #include <iostream>
+
+using namespace std;
+int a[100][100]={};
+void construire(int m,int n){
+    for(int i=1;i<=m;i++){
+        for(int j=1;j<=n;j++){
+            if(i%2==0){
+                a[i][j]=0;
+            }
+            else{
+                if(j%2==0){
+                    a[i][j]=0;
+                }
+                else{
+                    a[i][j]=1;
+                }
+            }
+        }
+    }
+}
+int main() {
+    int m,n;
+    cin>>m>>n;
+    construire(m,n);
+    for(int i=1;i<=m;i++){
+        for(int j=1;j<=n;j++){
+            cout<<a[i][j]<<" ";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
