@@ -1,0 +1,38 @@
+1.1.  (X OR NOT Z) AND (NOT X OR Y)
+A. X  false; Y false; Z  true;   --> (F|| F) && (T || F) --F && T=F
+B. X  true; Y false; Z  false;   --> (T ||T) && (F || F) -->T && F=F
+C. X  false; Y true; Z  false;   --> (F ||T) && (T || T) -->T && T=T
+D. X  true; Y true; Z  true.    --> (T || F) && (F || T) -->T && T=T
+R:CD
+1.2. B
+1.3. CD
+1.4. AC
+1.5. AD
+1.6. BC
+1.7. ACD
+1.8. A
+1.9. A
+1.10 ACD
+1.11 AC
+1.12 BC
+1.13.?
+1.14. trebuie sa fie multiplu de 5 3*n unde n este numarul de ordine
+      2/3*y+y=n -->5*y=3*n
+      R: BD
+1.15 pentru fiecare dintre elementele de pe diagonala principala precum si elementele de sub aceasta avem cate 2 variante 
+     A. n=2 --> 2^3=8
+     B. n=3 --> 2^6=8^2=64
+     C. n=4 --> 2^10=1024
+     D. n=5 -->2^ 15
+    R:C
+1.16 ?
+1.17 
+1.18
+1.19
+1.20
+1.21. 1  4 = 5         1*4+1=5
+      2  5 = 12        2*5+2=12
+      3  6 = 21        3*6+3=21
+      4  7 = 32        4*7+4=32 
+       6  9= 6*9+6=54+6=60
+    R:60 
