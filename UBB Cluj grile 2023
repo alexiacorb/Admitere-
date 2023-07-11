@@ -15,7 +15,8 @@ R:CD
 1.10 ACD
 1.11 AC
 1.12 BC
-1.13.?
+1.13.2^(n-1) moduri 
+     R:AC
 1.14. trebuie sa fie multiplu de 5 3*n unde n este numarul de ordine
       2/3*y+y=n -->5*y=3*n
       R: BD
