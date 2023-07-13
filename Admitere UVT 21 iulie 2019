@@ -77,3 +77,32 @@ int main() {
     cout<<complementare(v,n,i,j);
     return 0;
 }
+c) #include <iostream>
+
+using namespace std;
+int secv[100];
+int n;
+void citire(){
+    cin>>n;
+    for(int i=1;i<=n;i++){
+        cin>>secv[i];
+    }
+}
+int verif(int st,int dr){
+    if(st>=dr){
+        return 1;
+    }
+    if(secv[st]!=secv[dr]){
+        return 0;
+    }
+    return verif(st+1,dr-1);
+}
+int main()
+{
+     citire();
+    int st=1,dr=n;
+    cout<<verif(st,dr);
+    return 0;
+}
+4. a) (i)
+   
